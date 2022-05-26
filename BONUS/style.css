@@ -67,3 +67,14 @@
 }
 
 /* hover*/
+.second-image{
+  display: none;
+}
+
+.product:hover .second-image{
+  display: block;
+  width: 100%;
+  position:absolute;
+  left: 0;
+  top:0;
+}
