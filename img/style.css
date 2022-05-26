@@ -21,7 +21,7 @@
 
 /* layout */
 .container {
-  max-width: 1100px;
+  max-width: 60%;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -42,15 +42,22 @@
 .product img {
   width: 100%;
 }
-.first-box {
+/* boxes*/
+.box {
   position: absolute;
-  bottom: 80px;
-  left: 0;
   color: white;
   padding :5px;
   font-size: 10px;
 }
-.heart {
+.first {
+  bottom: 80px;
+  left: 0;
+}
+.second {
+  bottom: 80px;
+  left: 35px;
+}
+ .heart {
   color: black;
   position: absolute;
   top: 10px;
@@ -58,11 +65,3 @@
   background-color: white;
   padding: 8px;
 }
-.second-box {
-  position: absolute;
-  bottom: 80px;
-  left: 35px;
-  color: white;
-  padding :5px;
-  font-size: 10px;
- }
