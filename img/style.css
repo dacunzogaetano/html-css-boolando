@@ -4,19 +4,14 @@
   margin: 0;
   padding: 0;
 }
-/* commons */
-h1 {
-  margin: 20px 0;
-}
 
 /* utilities */
-.bg-red {
+.bg-color-red {
   background-color: red;
 }
-.bg-green {
+.bg-color-green {
   background-color: green;
 }
-
 /* layout */
 .container {
   max-width: 1100px;
@@ -42,19 +37,17 @@ h1 {
 }
 .discount {
   position: absolute;
-  bottom: 10%;
+  bottom: 80px;
   left: 0;
+  color: white;
+  padding :5px;
 }
 .heart {
-  display: none;
-  cursor: pointer;
-}
-
-.product:hover .heart {
-  display: block;
-  width: 100%;
-  text-align: center;
+  color: black;
   position: absolute;
-  bottom: 10%;
-  color: red;
+  top: 10px;
+  right:0;
+  background-color: white;
+  padding: 7px;
 }
+.red {color:red;}
