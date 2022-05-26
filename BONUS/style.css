@@ -1,0 +1,69 @@
+/* reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* utilities */
+.bg-color-red {
+  background-color: red;
+}
+.bg-color-green {
+  background-color: green;
+}
+.red {color:red;
+}
+.riga {text-decoration: line-through;
+}
+.text { font-size: 10px;
+}
+
+/* layout */
+.container {
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col {
+  width: calc(100% / 3);
+  padding: 5px;
+}
+
+/* products */
+.product {
+  padding-bottom: 20px;
+  position: relative;
+}
+.product img {
+  width: 100%;
+}
+/* boxes*/
+.box {
+  position: absolute;
+  color: white;
+  padding :5px;
+  font-size: 10px;
+}
+.first {
+  bottom: 80px;
+  left: 0;
+}
+.second {
+  bottom: 80px;
+  left: 35px;
+}
+ .heart {
+  color: black;
+  position: absolute;
+  top: 10px;
+  right:0;
+  background-color: white;
+  padding: 8px;
+}
+
+/* hover*/
