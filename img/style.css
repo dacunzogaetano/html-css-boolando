@@ -12,6 +12,13 @@
 .bg-color-green {
   background-color: green;
 }
+.red {color:red;
+}
+.riga {text-decoration: line-through;
+}
+.text { font-size: 10px;
+}
+
 /* layout */
 .container {
   max-width: 1100px;
@@ -35,12 +42,13 @@
 .product img {
   width: 100%;
 }
-.discount {
+.first-box {
   position: absolute;
   bottom: 80px;
   left: 0;
   color: white;
   padding :5px;
+  font-size: 10px;
 }
 .heart {
   color: black;
@@ -48,6 +56,13 @@
   top: 10px;
   right:0;
   background-color: white;
-  padding: 7px;
+  padding: 8px;
 }
-.red {color:red;}
+.second-box {
+  position: absolute;
+  bottom: 80px;
+  left: 35px;
+  color: white;
+  padding :5px;
+  font-size: 10px;
+ }
