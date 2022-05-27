@@ -8,9 +8,11 @@
 /* utilities */
 .bg-color-red {
   background-color: red;
+  padding: 3px;
 }
 .bg-color-green {
   background-color: green;
+  padding: 3px;
 }
 .red {color:red;
 }
@@ -46,17 +48,11 @@
 .box {
   position: absolute;
   color: white;
-  padding :5px;
+  padding-right: 5px;
   font-size: 10px;
+  bottom : 80px;
 }
-.first {
-  bottom: 80px;
-  left: 0;
-}
-.second {
-  bottom: 80px;
-  left: 35px;
-}
+
  .heart {
   color: black;
   position: absolute;
@@ -66,15 +62,13 @@
   padding: 8px;
 }
 
-/* hover*/
-.second-image{
+.second-image {
   display: none;
 }
 
-.product:hover .second-image{
+.product:hover .second-image {
   display: block;
-  width: 100%;
-  position:absolute;
-  left: 0;
+  position: absolute;
   top:0;
-}
+  left:0;
+  }
